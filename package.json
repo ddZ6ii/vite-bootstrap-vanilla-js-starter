@@ -2,11 +2,19 @@
   "name": "vite-bootstrap-vanilla-js-starter",
   "private": true,
   "version": "0.0.0",
+  "description": "vite starter for html | bootstrap & sass | vanilla js project",
+  "author": "Denis Dezest <denis.dezest@gmail.com>",
+  "repository": "git@github.com:ddZ6ii/vite-bootstrap-vanilla-js-starter.git",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite --host --open",
-    "build": "vite build",
-    "preview": "vite preview"
+    "format": "prettier --write .",
+    "lint": "eslint --fix .",
+    "format:lint": "yarn run format && yarn run lint",
+    "build": "yarn run lint && vite build",
+    "preview": "vite preview --host --open",
+    "build:preview": "yarn run build && yarn run preview"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.0.2",
