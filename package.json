@@ -9,6 +9,14 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.0.2",
+    "@eslint/js": "^9.0.0",
+    "eslint": "8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "globals": "^15.0.0",
+    "jsonc-eslint-parser": "^2.4.0",
     "path": "^0.12.7",
     "prettier": "^3.2.5",
     "url": "^0.11.3",
