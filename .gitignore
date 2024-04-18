@@ -12,8 +12,14 @@ dist
 dist-ssr
 *.local
 
+# MD files
+*.md
+!README.md
+
+# Frontend cloud directory and files
+.vercel
+
 # Editor directories and files
-.vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
