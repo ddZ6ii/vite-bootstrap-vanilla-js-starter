@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "path": "^0.12.7",
+    "prettier": "^3.2.5",
     "url": "^0.11.3",
     "vite": "^5.2.0"
   }
